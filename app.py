@@ -32,7 +32,7 @@ def init_tts_engine():
         return None
 
 # Load the trained model and vectorizer
-@st.cache_resource
+# @st.cache_resource
 def load_model_and_data():
     try:
         with open('model/model.pkl', 'rb') as f:

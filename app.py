@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Initialize TTS engine
-@st.cache_resource
+# @st.cache_resource
 def init_tts_engine():
     """Initialize text-to-speech engine"""
     try:

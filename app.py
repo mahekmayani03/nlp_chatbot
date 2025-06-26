@@ -115,7 +115,7 @@ def chatbot_response(user_input):
                 return random.choice(intent['responses'])
         return "I'm sorry, I didn't understand that. Can you please rephrase?"
     except Exception as e:
-        return (f"Error generating response: {str(e)}")
+        return f"Error generating response: {str(e)}"
 
 def main():
     st.title("🤖🎤 Speech-to-Speech Chatbot")

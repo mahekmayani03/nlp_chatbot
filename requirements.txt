@@ -4,3 +4,7 @@ pandas
 numpy
 scikit-learn
 nltk
+speechrecognition
+pipwin
+pyttsx3
+pyaudio

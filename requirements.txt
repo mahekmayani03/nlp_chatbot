@@ -5,6 +5,6 @@ numpy
 scikit-learn
 nltk
 speechrecognition
+pipwin
 pyttsx3
-sounddevice  # Add - PyAudio alternative
-scipy  # Add - needed for audio processing with sounddevice
+pyaudio
